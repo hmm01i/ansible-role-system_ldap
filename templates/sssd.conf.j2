@@ -59,7 +59,7 @@ ldap_tls_reqcert = {{ system_ldap_tls_reqcert }}
 {% endif %}
 
 [sssd]
-services = nss, pam, autofs
+services = nss, pam, autofs, ssh
 config_file_version = 2
 
 domains = {{ system_ldap_domain }}
